@@ -4,8 +4,6 @@ title: Mas de Cosme - Where Nature, Freedom & Community Meet
 
 # {{ title }}
 
-Based in Xerta, Southern Catalonia, Mas de Cosme is an international non-profit creating spaces that protect nature and animals, foster freedom and equality, and promote a vegan lifestyle.
-Through our network of fincas and committed people, we work for a sustainable and fair future — with education, self-sufficiency, and activism at our core.
+Amb seu a Xerta, al sud de Catalunya, Mas de Cosme és una organització internacional sense ànim de lucre que crea espais que protegeixen la natura i els animals, fomenten la llibertat i la igualtat i promouen un estil de vida vegà. A través de la nostra xarxa de finques i persones compromeses, treballem per un futur sostenible i just, amb l'educació, l'autosuficiència i l'activisme al nostre centre.
 
-Our name, Mas de Cosme, means both “more of the cosmos” and “country house of the universe.”
-It reflects our spirit: thinking beyond borders, expanding horizons, and embracing diversity under the stars of the Terres de l’Ebre.
+El nostre nom, Mas de Cosme, significa alhora "més cosmos" i "casa de camp de l'univers". Reflecteix el nostre esperit: pensar més enllà de les fronteres, ampliar horitzons i abraçar la diversitat sota les estrelles de les Terres de l'Ebre.

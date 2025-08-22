@@ -1,0 +1,830 @@
+textkey;text;translation
+amount.button1.label;;
+amount.button2.label;;
+amount.button3.label;;
+amount.button4.label;;
+amount.decimal.error;Ensure you're using the correct decimal separator for your browser's language (e.g. {{decimal}});Assegureu-vos d'utilitzar el separador decimal correcte per a l'idioma del vostre navegador (per exemple {{decimal}})
+amount.error;Please enter an amount between 5 {{currencySymbol}} and {{max}} {{currencySymbol}};Si us plau, introduïu un import entre 5 {{currencySymbol}} i {{max}} {{currencySymbol}}
+amount.extra.label;I am willing to donate {{amount}}{{currency}} for administration fees.;Estic disposat/a a donar {{amount}}{{currency}} per a despeses administratives.
+amount.image.label;For example, what we use your donation for:;Per exemple, per a què utilitzem la vostra donació:
+amount.info;You can enter a higher amount here;Podeu introduir un import més alt aquí
+amount.info.max;For donations above EUR {{max}} or more, please contact us directly. Thank you very much!;Per a donacions superiors a {{max}} EUR o més, poseu-vos en contacte amb nosaltres directament. Moltes gràcies!
+amount.info.min;The amount was automatically increased to the minimum amount.;L'import s'ha augmentat automàticament a l'import mínim.
+amount.label;Please choose your amount;Si us plau, trieu el vostre import
+amount.label.membership;How much should your contribution be per month?;Quin hauria de ser el vostre import mensual?
+amount.slider.toggle;more;més
+banktransfer.amount.label;Amount;Import
+banktransfer.app.button;Open banking app;Obrir aplicació bancària
+banktransfer.app.teaser;You may also use your banking app;També podeu utilitzar la vostra aplicació bancària
+banktransfer.bic.label;BIC;BIC
+banktransfer.button.open;Show account data;Mostrar dades del compte
+banktransfer.iban.label;IBAN;IBAN
+banktransfer.qr.teaser;Your payment code for fast bank transfer via app;El vostre codi de pagament per a transferència bancària ràpida via aplicació
+banktransfer.receiver.label;Recipient;Destinatari
+banktransfer.subject.label;Subject;Assumpte
+banktransfer.teaser;Our bank account:;El nostre compte bancari:
+bonus.button.choose;Select;Seleccionar
+bonus.button.choose.none;I waive a premium;Renuncio a una prima
+bonus.button.chosen;selected;seleccionat
+bonus.error;Please select a premium;Si us plau, seleccioneu una prima
+bonus.label;Select a premium;Seleccioneu una prima
+button.close;Close;Tancar
+button.info;More information;Més informació
+certificate.confirmation;"<p>Es wird bestätigt, dass über die in der Gesamtsumme enthaltenen Zuwendungen keine weiteren Bestätigungen, weder formelle Zuwendungsbestätigungen noch Beitragsquittungen oder Ähnliches ausgestellt wurden und werden.</p>
+<p>Ob es sich um den Verzicht von Aufwendungen handelt, ist der Anlage zur Sammelbestätigung zu entnehmen.</p>";"<p>Es confirma que sobre les donacions contingudes en la suma total no s'han emès ni s'emetran altres confirmacions, ni confirmacions formals de donacions ni rebuts de contribucions o similars.</p>
+<p>Si es tracta de la renúncia a despeses, es pot veure a l'annex de la confirmació col·lectiva.</p>"
+certificate.document.subject;Bestätigung über Geldzuwendungen / Sammelbestätigung Mitgliedsbeiträge/Spenden;Confirmació sobre donacions monetàries / Confirmació col·lectiva quotes de soci/donacions
+certificate.donationusage;"<p>Es wird bestätigt, dass die Zuwendung nur zur Förderung (Angabe des begünstigten Zwecks / der begünstigten Zwecke) verwendet wird.</p>
+<p class=""no-margin"">Nur für steuerbegünstigte Einrichtungen, bei denen die Mitgliedsbeiträge steuerlich nicht abziehbar sind:</p>
+<p class=""small-intended is-checked no-margin"">
+Es wird bestätigt, dass es sich nicht um einen Mitgliedsbeitrag handelt, dessen Abzug nach § 10b Abs. 1 des Einkommensteuergesetzes ausgeschlossen ist.
+</p>";"<p>Es confirma que la donació només s'utilitza per a la promoció (indicació del propòsit beneficiat / dels propòsits beneficiats).</p>
+<p class=""no-margin"">Només per a institucions fiscalment privilegiades on les quotes de soci no són fiscalment deduïbles:</p>
+<p class=""small-intended is-checked no-margin"">
+Es confirma que no es tracta d'una quota de soci la deducció de la qual està exclosa segons el § 10b Abs. 1 de la Llei de l'Impost sobre la Renda.
+</p>"
+certificate.donationusage2;"<p class=""no-margin"">Nur für steuerbegünstigte Einrichtungen, bei denen die Mitgliedsbeiträge steuerlich nicht abziehbar sind:</p>
+<p class=""small-intended is-checked no-margin"">
+Es wird bestätigt, dass es sich nicht um einen Mitgliedsbeitrag handelt, dessen Abzug nach § 10b Abs. 1 des Einkommensteuergesetzes ausgeschlossen ist.
+</p>";"<p class=""no-margin"">Només per a institucions fiscalment privilegiades on les quotes de soci no són fiscalment deduïbles:</p>
+<p class=""small-intended is-checked no-margin"">
+Es confirma que no es tracta d'una quota de soci la deducció de la qual està exclosa segons el § 10b Abs. 1 de la Llei de l'Impost sobre la Renda.
+</p>"
+certificate.footer;"<strong>Hinweis:</strong><br> Wer vorsätzlich oder grob fahrlässig eine unrichtige Zuwendungsbestätigung erstellt oder wer veranlasst, dass Zuwendungen nicht zu den in der Zuwendungsbestätigung angegebenen steuerbegünstigten Zwecken verwendet werden, haftet für die entgangene Steuer (§ 10b Abs. 4 EStG, § 9 Abs. 3 KStG, § 9 Nr. 5 GewStG).<br>
+Diese Bestätigung wird nicht als Nachweis für die steuerliche Berücksichtigung der Zuwendung anerkannt, wenn das Datum des Freistellungsbescheides länger als 5 Jahre bzw. das Datum der Feststellung der Einhaltung der satzungsmäßigen Voraussetzungen nach § 60a Abs. 1 AO länger als 3 Jahre seit Ausstellung des Bescheides zurückliegt (§ 63 Abs. 5 AO).
+<br>
+Die Nutzung eines Verfahrens zur maschinellen Erstellung von Zuwendungsbestätigungen (entsprechend R 10b.1 Abs. 4 EStR) haben wir unserem Finanzamt angezeigt.";"<strong>Hinweis:</strong><br> Wer vorsätzlich oder grob fahrlässig eine unrichtige Zuwendungsbestätigung erstellt oder wer veranlasst, dass Zuwendungen nicht zu den in der Zuwendungsbestätigung angegebenen steuerbegünstigten Zwecken verwendet werden, haftet für die entgangene Steuer (§ 10b Abs. 4 EStG, § 9 Abs. 3 KStG, § 9 Nr. 5 GewStG).<br>
+Diese Bestätigung serà nicht als Nachweis für die steuerliche Berücksichtigung der Zuwendung anerkannt, wenn das Datum des Freistellungsbescheides länger als 5 Jahre bzw. das Datum der Feststellung der Einhaltung der satzungsmäßigen Voraussetzungen nach § 60a Abs. 1 AO länger als 3 Jahre seit Ausstellung des Bescheides zurückliegt (§ 63 Abs. 5 AO).
+<br>
+Die Nutzung eines Verfahrens zur maschinellen Erstellung von Zuwendungsbestätigungen (entsprechend R 10b.1 Abs. 4 EStR) haben wir unserem Finanzamt angezeigt."
+certificate.fundingreason;Wir sind wegen Förderung der freien Wohlfahrtspflege nach dem Freistellungsbescheid bzw. nach der Anlage zum Körperschaftsteuerbescheid des Finanzamtes Münster Innenstadt, StNr. 337/5906/0047, vom 21.01.2019 für den letzten Veranlagungszeitraum 2017 nach § 5 Abs. 1 Nr. 9 des Körperschaftsteuergesetzes von der Körperschaftsteuer und nach § 3 Nr. 6 des Gewerbesteuergesetzes von der Gewerbesteuer befreit.;Estem exempts de l'impost de societats segons § 5 Abs. 1 Nr. 9 de la Llei de l'Impost de Societats i de l'impost comercial segons § 3 Nr. 6 de la Llei de l'Impost Comercial per la promoció del benestar lliure segons la resolució d'exempció o segons l'annex de la resolució de l'impost de societats de l'Oficina Tributària de Münster Innenstadt, StNr. 337/5906/0047, del 21.01.2019 per al darrer període d'avaluació 2017.
+certificate.headline;Sammelbestätigung über Geldzuwendungen/Mitgliedsbeitrag;Confirmació col·lectiva sobre donacions monetàries/quota de soci
+certificate.teaser;im Sinne des § 10b des Einkommensteuergesetzes an eine der in § 5 Abs. 1 Nr. 9 des Körperschaftsteuergesetzes bezeichneten Körperschaften, Personenvereinigungen oder Vermögensmassen;en el sentit del § 10b de la Llei de l'Impost sobre la Renda a una de les corporacions, associacions de persones o patrimonis designats en el § 5 apartat 1 núm. 9 de la Llei de l'Impost sobre Societats
+company.input.toggle.active;This is a corporate donation.;Aquesta és una donació corporativa.
+company.input.toggle.inactive;Is this a corporate donation?;És aquesta una donació corporativa?
+contact.address_additional_info.label;Address addition;Complement d'adreça
+contact.address_additional_info.label.error;Please enter address addition;Si us plau, introduïu el complement d'adreça
+contact.birthday.label;Birthday;Data de naixement
+contact.birthday.label.error;This date is invalid;Aquesta data no és vàlida
+contact.city.label;City;Ciutat
+contact.city.label.error;Please enter your city;Si us plau, introduïu la vostra ciutat
+contact.company.label;Company;Empresa
+contact.company.label.error;please enter company name;si us plau, introduïu el nom de l'empresa
+contact.country.label;Country;País
+contact.country.label.error;Please choose your country;Si us plau, trieu el vostre país
+contact.donateAs.label;Donat as;Donar com a
+contact.donateas.option.company;company;empresa
+contact.donateas.option.private;private person;persona privada
+contact.donation_receipt.checkbox;Donation receipt;Rebut de donació
+contact.donation_receipt.label;Do you need a donation receipt?;Necessiteu un rebut de donació?
+contact.email.label;E-mail address;Adreça de correu electrònic
+contact.email.label.error;This e-mail address is invalid;Aquesta adreça de correu electrònic no és vàlida
+contact.firstname.label;First name;Nom
+contact.firstname.label.error;First name is invalid;El nom no és vàlid
+contact.headline.default;Our service for you;El nostre servei per a vosaltres
+contact.headline.donationreceipt;Order donation certificate;Sol·licitar certificat de donació
+contact.headline.mandatory;Please fill in your contact data;Si us plau, ompliu les vostres dades de contacte
+contact.headline.newsletter;Newsletter subscribtion;Subscripció al butlletí
+contact.headline.postinfo;Order informations;Sol·licitar informacions
+contact.lastname.label;Surname;Cognom
+contact.lastname.label.error;Surname is invalid;El cognom no és vàlid
+contact.newsletter.button;Subscribe now;Subscriu-te ara
+contact.newsletter.checkbox;Register for our newsletter;Registra't al nostre butlletí
+contact.noselection;please choose at least one service;si us plau, trieu almenys un servei
+contact.open;Address input;Introducció d'adreça
+contact.optional; (optional); (opcional)
+contact.optional.short; (opt.); (opc.)
+contact.postal_code.label;Zipcode;Codi postal
+contact.postal_code.label.error;Zipcode invalid;Codi postal no vàlid
+contact.postinfo.checkbox;News by mail;Notícies per correu
+contact.privacy;"I agree to the <a href=""{{privacy_url}}"" target=""_blank"">privacy policy</a> and to receive information on animal equality";"Accepto la <a href=""{{privacy_url}}"" target=""_blank"">política de privacitat</a> i rebre informació sobre igualtat animal"
+contact.privacy.error;Please accept;Si us plau, accepteu
+contact.salutation.label;Salutation;Tractament
+contact.salutation.label.error;Please choose a salutation;Si us plau, trieu un tractament
+contact.salutation.other.label;Family;Família
+contact.salution.divers.label;Mx;Mx
+contact.salution.female.label;Mrs.;Sra.
+contact.salution.male.label;Mr.;Sr.
+contact.send;Send data;Enviar dades
+contact.share_internal_optout.checkbox;;
+contact.street.label;Street;Carrer
+contact.street.label.error;Please enter your street and number;Si us plau, introduïu el vostre carrer i número
+contact.street.label.error.number;"Forgotten house number? <u tabindex=""0"">Go on without house number</u>.";"Heu oblidat el número de casa? <u tabindex=""0"">Continueu sense número de casa</u>."
+contact.taxrebate;I want to receive tax rebate on my donation;Vull rebre una rebaixa fiscal per la meva donació
+contact.teaser.default;On request we send you information about our work or provide you with a donation certificate.;Si ho sol·liciteu, us enviarem informació sobre el nostre treball o us proporcionarem un certificat de donació.
+contact.teaser.donationreceipt;On request we provide you with a donation certificate.;Si ho sol·liciteu, us proporcionem un certificat de donació.
+contact.teaser.newsletter;You can subscribe to our newsletter;Podeu subscriure-us al nostre butlletí
+contact.teaser.newsletter.subscribed;Thank you for subscribtion;Gràcies per la subscripció
+contact.teaser.postinfo;On request we send you information.;Si ho sol·liciteu, us enviem informació.
+contact.telephone.label;Phone number;Número de telèfon
+contact.telephone.label.error;Please enter phone number;Si us plau, introduïu el número de telèfon
+contact.title.label;title;títol
+contact.title.label.error;please enter title;si us plau, introduïu el títol
+contact.tshirtSize.label;shirt size;mida de camisa
+copyfield.info.copied;copied;copiat
+copyfield.info.copy;Copy to clipboard;Copia al porta-retalls
+dataprotection;"<h1>DATA PROTECTION STATEMENT</h1><p>We appreciate how important it is to you that your personal information is treated with the utmost care. Please read on to find out what personal information and usage data we collect when you visit our donation platform, and how this information is used.</p><h2>Responsible body</h2><p>The responsible body as defined by the German Federal Data Protection Act is <br><br>{{organisation}}<br>{{address}}<br></p><p>Any questions you may have about data protection may also be sent by email to datenschutz@twingle.de. twingle GmbH (twingle GmbH, Prinzenalle 74, 13357 Berlin) is our technical service provider for anything related to the operation of this donation platform.</p><h2>Collection, processing and use of your personal data</h2><p>We have to collect and process certain personal data in order to allow you to support our work via the platform. We will only use your personal data for advertising and marketing purposes to the extent that you give us specific permission to do so. Under no circumstances will we transmit your personal data to third persons for other purposes without authorization.</p><p>We share data required to check on the status of payment and amount paid with the service providers involved in handling the payment. This is necessary in order to process your payment and ensure you are able to use the platform without problem. Service providers may not use these data for anything other than processing payments. They are also required to handle the information in accordance with this data protection statement and the German data protection legislation. </p><p>Following the payment process, you may leave us your personal data on a voluntary basis so that we can issue a donation receipt and/or for the purpose of contacting you. These data include, for example: </p><p>Your full name or company name <br>Your postal address<br>Your email address <br>Your home number or cell phone number</p><p>By transmitting your data you may consent to us contacting you, and to receiving further information about our work. You may retract your consent at any time by sending us an informal message with future effect. </p><h2>Collection and processing of usage data</h2><p>twingle uses Matomo, an open-source web analysis solution, for the purpose of analyzing usage data in relation to the donation platform. Matomo uses cookies (small text files), which are stored on your computer. All data are stored on a German server in anonymous form. IP addresses are also rendered anonymous prior to storage, and cannot be used to identify individual persons. No data is disclosed to third persons. If the ""Do Not Track"" function is activated in your browser cookies cannot be stored and usage data will not be analyzed. You may also manually prevent the installation of the Matomo cookie by clicking on the following button:</p>";"<h1>DECLARACIÓ DE PROTECCIÓ DE DADES</h1><p>Valorem la importància que té per a vosaltres que la vostra informació personal sigui tractada amb la màxima cura. Llegiu per saber quina informació personal i dades d'ús recollim quan visiteu la nostra plataforma de donacions i com s'utilitza aquesta informació.</p><h2>Òrgan responsable</h2><p>L'òrgan responsable tal com es defineix a la Llei Federal Alemanya de Protecció de Dades és <br><br>{{organisation}}<br>{{address}}<br></p><p>Qualsevol pregunta que pugueu tenir sobre la protecció de dades també es pot enviar per correu electrònic a datenschutz@twingle.de. twingle GmbH (twingle GmbH, Prinzenalle 74, 13357 Berlin) és el nostre proveïdor de serveis tècnics per a tot el relacionat amb el funcionament d'aquesta plataforma de donacions.</p><h2>Recollida, processament i ús de les vostres dades personals</h2><p>Hem de recollir i processar certes dades personals per permetre-vos donar suport al nostre treball a través de la plataforma. Només utilitzarem les vostres dades personals per a publicitat i màrqueting en la mesura que ens doneu permís específic per fer-ho. En cap circumstància transmetrem les vostres dades personals a tercers per a altres propòsits sense autorització.</p><p>Compartim les dades necessàries per verificar l'estat del pagament i l'import pagat amb els proveïdors de serveis involucrats en el processament del pagament. Això és necessari per processar el vostre pagament i assegurar-vos que pugueu utilitzar la plataforma sense problemes. Els proveïdors de serveis no poden utilitzar aquestes dades per a res més que processar pagaments. També estan obligats a manejar la informació d'acord amb aquesta declaració de protecció de dades i la legislació alemanya de protecció de dades.</p><p>Després del procés de pagament, podeu deixar-nos les vostres dades personals de forma voluntària perquè puguem emetre un rebut de donació i/o per contactar-vos. Aquestes dades inclouen, per exemple:</p><p>El vostre nom complet o nom de l'empresa <br>La vostra adreça postal<br>La vostra adreça de correu electrònic <br>El vostre número de casa o de telèfon mòbil</p><p>En transmetre les vostres dades podeu consentir que us contactem i que rebeu més informació sobre el nostre treball. Podeu retirar el vostre consentiment en qualsevol moment enviant-nos un missatge informal amb efecte futur.</p><h2>Recollida i processament de dades d'ús</h2><p>twingle utilitza Matomo, una solució d'anàlisi web de codi obert, per analitzar les dades d'ús relacionades amb la plataforma de donacions. Matomo utilitza cookies (petits fitxers de text) que s'emmagatzemen al vostre ordinador. Totes les dades s'emmagatzemen en un servidor alemany de forma anònima. Les adreces IP també es fan anònimes abans d'emmagatzemar-se i no es poden utilitzar per identificar persones individuals. No es revelen dades a tercers. Si la funció ""Do Not Track"" està activada al vostre navegador, no es poden emmagatzemar cookies i no s'analitzaran les dades d'ús. També podeu evitar manualment la instal·lació de la cookie de Matomo fent clic al següent botó:</p>"
+doi.footer;;
+doi.headline;Thank you for your support!;Gràcies pel vostre suport!
+doi.teaser;"Your data have been saved.
+ Please help us and share our campaign with your friends and acquaintances:";"Les vostres dades s'han desat.
+ Si us plau, ajudeu-nos i compartiu la nostra campanya amb els vostres amics i coneguts:"
+donation.info.started;One moment please. Your donation is in progress.;Un moment si us plau. La vostra donació està en curs.
+donation.remarks.error;Please enter a message;Si us plau, introduïu un missatge
+donation.remarks.info;You can enter your address for a donation receipt after sending the donation;Podeu introduir la vostra adreça per a un rebut de donació després d'enviar la donació
+donation.remarks.label;Your personal message to us (optional);El vostre missatge personal per a nosaltres (opcional)
+donation.remarks.trigger;donation receipt,street,road;rebut de donació, carrer, carretera
+donation.target.pleasechoose;please select ...;si us plau, seleccioneu...
+donation.target.textfield.label;Free text;Text lliure
+donation.target.textfield.placeholder;Free text;Text lliure
+email.100-percent-of-goal-reached.footer;"Kind regards
+ {{organisationName}}
+
+ {% if latestDonations %}
+ The last donations in your campaign
+ <ul>{% for donation in latestDonations %}<li>{{donation.amount}} from {% if donation.data.name %}{{donation.data.name}}{% else %} a supporter{% endif %}{% if donation.data.message %} - ""{{donation.data.message}}""{% endif %}</li>{% endfor %}</ul>
+ {% endif %}";"Cordialment
+ {{organisationName}}
+
+ {% if latestDonations %}
+ The last donations in your campaign
+ <ul>{% for donation in latestDonations %}<li>{{donation.amount}} from {% if donation.data.name %}{{donation.data.name}}{% else %} a supporter{% endif %}{% if donation.data.message %} - ""{{donation.data.message}}""{% endif %}</li>{% endfor %}</ul>
+ {% endif %}"
+email.100-percent-of-goal-reached.subject;🎉 You did it: Your donation goal was reached!;🎉 Ho heu aconseguit: S'ha assolit l'objectiu de donació!
+email.100-percent-of-goal-reached.text;"Dear {{eventCreatorName}},
+ <p>
+ you did it: Your donation event reached its goal of {{eventDonationGoal}} EUR today! A total of {{donationsCount}} donors have donated {{donationsAmount}} EUR. We congratulate you on this success and thank you for your support of our work!
+ </p>
+ However, your donation event remains active and donations can still be made.";"Dear {{eventCreatorName}},
+ <p>
+ you did it: Your donation event reached its goal of {{eventDonationGoal}} EUR today! A total of {{donationsCount}} donors have donated {{donationsImport}} EUR. We congratulate you on this success and thank you for your support of our work!
+ </p>
+ However, your donation event remains active and donations can still be made."
+email.50-percent-of-goal-reached.footer;"Kind regards
+ {{organisationName}}
+
+ {% if latestDonations %}
+ The last donations in your campaign
+ <ul>{% for donation in latestDonations %}<li>{{donation.amount}} EUR from {% if donation.data.name %}{{donation.data.name}}{% else %} a supporter{% endif %}{% if donation.data.message %} - ""{{donation.data.message}}""{% endif %}</li>{% endfor %}</ul>
+ {% endif %}";"Cordialment
+ {{organisationName}}
+
+ {% if latestDonations %}
+ The last donations in your campaign
+ <ul>{% for donation in latestDonations %}<li>{{donation.amount}} EUR from {% if donation.data.name %}{{donation.data.name}}{% else %} a supporter{% endif %}{% if donation.data.message %} - ""{{donation.data.message}}""{% endif %}</li>{% endfor %}</ul>
+ {% endif %}"
+email.50-percent-of-goal-reached.subject;You're halfway to your donation goal - keep it up!;Esteu a mig camí del vostre objectiu de donació - continueu així!
+email.50-percent-of-goal-reached.text;"Dear {{eventCreatorName}},
+ <p>
+  Your donation event has today reached half of your donation goal of {{eventDonationGoal}} EUR. In total, {{donationsCount}} donations totalling {{donationsAmount}} EUR were made. Great!
+ </p>
+ Encourage more people to join your action now - because your goal is getting closer!
+ <p>
+ Thank you for supporting our work.
+ </p>";"Dear {{eventCreatorName}},
+ <p>
+  Your donation event has today reached half of your donation goal of {{eventDonationGoal}} EUR. In total, {{donationsCount}} donations totalling {{donationsImport}} EUR were made. Great!
+ </p>
+ Encourage més people to join your action now - because your goal is getting closer!
+ <p>
+ Thank you for supporting our work.
+ </p>"
+email.amount;Amount:;Import:
+email.banktransfer.hint;Please use the following information for your bank transfer so we can allocate your donation correctly.;Si us plau, utilitzeu la següent informació per a la vostra transferència bancària perquè puguem assignar correctament la vostra donació.
+email.banktransfer.purpose;Purpose:;Propòsit:
+email.banktransfer.receiver;Recipient:;Destinatari:
+email.bic;BIC:;BIC:
+email.birthday;birthday:;aniversari:
+email.city;city:;ciutat:
+email.company;company:;empresa:
+email.confirmationmail.footer;"If you have any questions, please don´t hesitate to contact us via e-mail: <a href=""mailto:{{contactEmail}}"">{{contactEmail}}</a>.";"Si teniu alguna pregunta, no dubteu a contactar-nos per correu electrònic: <a href=""mailto:{{contactEmail}}"">{{contactEmail}}</a>."
+email.confirmationmail.footer.api;;
+email.confirmationmail.subject;Many thanks for your donation!;Moltes gràcies per la vostra donació!
+email.confirmationmail.subject.api;;
+email.confirmationmail.text;"Many thanks for your donation!
+
+Your donation supports our work.{{giftDonationHint}}
+
+We have received the following information on {{date}} at {{time}}:
+";"Moltes gràcies per la vostra donació!
+
+La vostra donació dóna suport al nostre treball.{{giftDonationHint}}
+
+We have received the following information on {{date}} at {{time}}:
+"
+email.confirmationmail.text.api;;
+email.confirmationmail.text.shop;"Thank you very much for your donation!
+
+With your contribution you support our work. {{giftDonationHint}}
+
+Your order includes the following products:
+{{products}}
+
+We received the following data at {{date}} at {{time}}:";"Moltes gràcies per la vostra donació!
+
+Amb la vostra contribució doneu suport al nostre treball. {{giftDonationHint}}
+
+Your order includes the following products:
+{{products}}
+
+We received the following data at {{date}} at {{time}}:"
+email.country;country:;país:
+email.debit.accountHolder;Account owner:;Propietari del compte:
+email.debit.explanation;"The debit will occur under the reference ""{{paymentReferenceMessage}}"" using the SEPA mandate reference number: {{sepaMandate}}.
+Our creditor identifier is {{donateeOrganisationcreditorIdentification}}.
+The debit will be carried out in the course of five working days.
+";"The debit will occur under the reference ""{{paymentReferenceMessage}}"" using the SEPA mandate reference number: {{sepaMandate}}.
+Our creditor identifier is {{donateeOrganisationcreditorIdentification}}.
+The debit will be carried out in the course of five working days.
+"
+email.debit.hint;We will {{rhythm}} debit the amount of {{amount}} {{currency}} from the following account:;Debitarem {{rhythm}} l'import de {{amount}} {{currency}} del següent compte:
+email.doimail.footer;"If the registration is not confirmed, we may not send a newsletter to the e-mail address provided. Each newsletter contains a link that can be used to unsubscribe at any time.
+{{donateeOrganisationName}}";"Si no es confirma el registre, no podrem enviar un butlletí a l'adreça de correu electrònic proporcionada. Cada butlletí conté un enllaç que es pot utilitzar per cancel·lar la subscripció en qualsevol moment.
+{{donateeOrganisationName}}"
+email.doimail.linktext;Please click on the following link to confirm your registration:;Si us plau, feu clic al següent enllaç per confirmar el vostre registre:
+email.doimail.subject;Please confirm your newsletter registration;Si us plau, confirmeu el vostre registre al butlletí
+email.doimail.text;"{{donorSalutation}} {{donorFirstname}} {{donorLastname}},
+
+Thank you for your interest in our newsletter.";"{{donorTractament}} {{donorFirstname}} {{donorLastname}},
+
+Thank you for your interest in our newsletter."
+email.donationChanged.footer;"Sollten Sie weitere Fragen haben, erreichen Sie uns per E-Mail unter <a href=""mailto:{{contactEmail}}"">{{contactEmail}}</a>.<br><br><br><small>Zahlungs-ID: {{paymentReference}}</small>";"Si teniu més preguntes, podeu contactar amb nosaltres per correu electrònic a <a href=""mailto:{{contactEmail}}"">{{contactEmail}}</a>.<br><br><br><small> Identificador de pagament: {{paymentReference}}</small>"
+email.donationChanged.subject;Erfolgreiche Aktualisierung Ihrer Daten;Actualitzar correctament les dades
+email.donationChanged.teaser;Guten Tag,<br><br>Sie haben erfolgreich die folgenden Daten Ihrer Zahlung aktualisiert (vorherige Angaben in Klammern):;Bon dia,<br><br>Heu actualitzat correctament les dades següents del vostre pagament (dades anteriors entre parèntesis):
+email.donationreceiptmail.filename;zuwendungsbescheinigung.pdf;zuwendungsbescheinigung.pdf
+email.donationreceiptmail.footer;"<b>{{organisationName}}</b>
+ {{organisationAddress}}
+ {{organisationPhone}}
+ {{organisationContactEmail}}";"<b>{organisationName}</b>
+ {organisationAddress}
+ {organisationPhone}
+ {organisationContactEmail}
+"
+email.donationreceiptmail.subject;Ihre Zuwendungsbescheinigung {{donationYear}};El tiquet de donació {{donationYear}}
+email.donationreceiptmail.text;"Liebe/r {{userName}},
+
+für Ihre Spende möchten wir Ihnen nochmals herzlich danken. Es ist toll, dass Sie uns unterstützen!
+Wir haben Ihre Zuwendungsbescheinigung als PDF-Datei erstellt. Sie finden diese im Anhang dieser E-Mail.
+
+Für Fragen und Anregungen können Sie uns jederzeit ansprechen (E-Mail: {{organisationContactEmail}}).
+
+Herzliche Grüße
+
+{{organisationName}}
+{{organisationAddress}}
+{{organisationPhone}}
+{{organisationContactEmail}}";"Estimat/da {{userName}},
+
+für Ihre Spende möchten wir Ihnen nochmals herzlich danken. Es ist toll, dass Sie uns unterstützen!
+Hem preparat el vostre certificat de donació com a fitxer PDF. Sie finden diese al Anhang dieser E-Mail.
+
+Für Fragen und Anregungen können Sie uns jederzeit ansprechen (E-Mail: {{organisationContactEmail}}).
+
+Salutacions cordials
+
+{{organisationName}}
+{{organisationAddress}}
+{{organisationPhone}}
+{{organisationContactEmail}}"
+email.donationreceiptmail.text.part1;"Liebe/r {{ userName }},<br/><br/> <p class=""smallmargin"">für Ihre Spende im letzten Jahr möchten wir Ihnen nochmals von Herzen danken. Es ist toll, dass Sie uns unterstützen! </p><p class=""smallmargin"">Wir haben Ihre Zuwendungsbescheinigung {{ donationYear }} als PDF-Datei erstellt.</p><p class=""smallmargin"">Über den Link:</p>";"Estimat/da {{ userName }},<br/><br/> <p class=""smallmargin"">für Ihre Spende al letzten Jahr möchten wir Ihnen nochmals von Herzen danken. Es ist toll, dass Sie uns unterstützen! </p><p class=""smallmargin"">Hem preparat el vostre certificat de donació {{ donationYear }} com a fitxer PDF.</p><p class=""smallmargin"">A través de l'enllaç:</p>"
+email.donationreceiptmail.text.part2;"laden Sie diese am besten jetzt herunter, die Übertragung ist durch SSL-Verschlüsselung sicher. <br/><br/> Für Fragen und Anregungen können Sie uns jeder Zeit ansprechen (E-Mail: {{organisationContactEmail}}).
+<p>
+Herzliche Grüße
+</p>";"descarregueu-lo ara mateix, la transmissió és segura mitjançant xifratge SSL. <br/><br/> Per a preguntes i suggeriments podeu contactar-nos en qualsevol moment (E-Mail: {{organisationContactEmail}}).
+<p>
+Salutacions cordials
+</p>"
+email.donationreceiptmail.urltext;Spendenbescheinigung {{donationYear}};Rebut de donació  {{donationYear}}
+email.email;E-mail:;Correu electrònic:
+email.event-expired.subject;Done - your fundraising campaign has been successfully completed;Fet - la vostra campanya de recaptació de fons s'ha completat amb èxit
+email.event-expired.text;Hello {{eventCreatorName}},<br><br>the time has come: your fundraising campaign has ended successfully! In total, you were able to convince {{donationsCount}} People convinced to support your action and thus {{donationsAmount}} EUR to support our work. We thank you very much for this!<br><br>Kind regards,<br>{{organisationName}};Hola {{eventCreatorName}},<br><br>ha arribat el moment: la vostra campanya de recaptació de fons ha acabat amb èxit! En total, vau poder convèncer {{donationsCount}} Persones convençudes per donar suport a la vostra acció i així {{donationsImport}} EUR per donar suport al nostre treball. Us ho agraïm molt!<br><br>Cordialment,<br>{{organisationName}}
+email.event-willexpire.subject;Final spurt - your fundraising campaign ends in {{eventExpiryDays}} Days;Esprint final - la vostra campanya de recaptació de fons acaba en {{eventExpiryDies}} Dies
+email.event-willexpire.text;Hello {{eventCreatorName}},<br><br>thank you for supporting our work with your fundraising. <br><br>In {{eventExpiryDays}} Days it is now time for your fundraising to end. The current donation balance is: {{donationsAmount}} EUR.<br><br>We wish you good luck for the final spurt!<br><br>Kind regards<br>{{organisationName}};Hola {{eventCreatorName}},<br><br>gràcies per donar suport al nostre treball amb la vostra recaptació de fons. <br><br>In {{eventExpiryDies}} Dies it is now time for your fundraising to end. The current donation balance is: {{donationsImport}} EUR.<br><br>Us desitgem molta sort per a l'esprint final!<br><br>Cordialment<br>{{organisationName}}
+email.event.confirm.mail.button;"Confirm fundraising campaign ""{{description}}""";"Confirma la campanya de recaptació de fons ""{{description}}"""
+email.event.confirm.mail.change;To change content, e.g. fundraising texts or images, or to adjust the fundraising target: Click here:;Per canviar el contingut, per exemple, textos o imatges de recaptació de fons, o per ajustar l'objectiu de recaptació de fons: Feu clic aquí:
+email.event.confirm.mail.footer;"We wish you every success for the fundraising campaign. If you have any further questions, we will be happy to help at any time.
+
+{{organisationName}}";"Us desitgem molt d'èxit per a la campanya de recaptació de fons. Si teniu més preguntes, estarem encantats d'ajudar-vos en qualsevol moment.
+
+{{organisationName}}"
+email.event.confirm.mail.hint;To get as many supporters as possible for the campaign, it is best to send the web address of the personal donation page to family, friends, club members or colleagues or share it on social networks.;Per obtenir tants partidaris com sigui possible per a la campanya, és millor enviar l'adreça web de la pàgina de donació personal a familiars, amics, membres del club o col·legues o compartir-la a les xarxes socials.
+email.event.confirm.mail.opener;"Hello {{eventCreatorName}},
+
+Thank you very much for supporting our work through this fundraising campaign. This is an important contribution to the financing of our activities.
+The fundraising campaign ""{{description}}"" has been successfully set up and now only needs to be started with a click:";"Hola {{eventCreatorName}},
+
+Moltes gràcies per donar suport al nostre treball mitjançant aquesta campanya de recaptació de fons. Aquesta és una contribució important al finançament de les nostres activitats.
+La campanya de recaptació de fons ""{{description}}"" s'ha configurat amb èxit i ara només cal iniciar-la amb un clic:"
+email.event.confirm.subject;Your donation event is created;S'ha creat el vostre esdeveniment de donació
+email.iban;IBAN:;IBAN:
+email.name;name:;nom:
+email.paymentType;Payment method:;Pagament:
+email.postalcode;postcode:;Codi postal:
+email.purpose;Purpose:;Propòsit:
+email.rythm;Frequency:;Freqüència:
+email.street;adress:;adreça:
+email.telephone;telephone:;telèfon:
+email.transactionId;Payment-ID;Identificador de pagament
+embed.iframe.title.selfservice;Service for donors to update your data;Servei perquè els donants actualitzin les teves dades
+embed.iframe.title.widget;Donation form;Formulari de donació
+error.generic;This field is mandatory;Aquest camp és obligatori
+event.back.button;back;esquena
+event.create.description.label;Campaign name;Nom de la campanya
+event.create.description.placeholder;Name your fundraising campaign (e.g. Caroline's Birthday);Name your fundraising campaign (e.g. Caroline's Data de naixement)
+event.create.email.label;My email;El meu correu electrònic
+event.create.email.placeholder;email;Correu electrònic
+event.create.error;Please check all fields marked in red;Si us plau, comproveu tots els camps marcats en vermell
+event.create.eventtype.label;Event;Esdeveniment
+event.create.headline;Start fundraising campaign;
+event.create.image.button;Select photo;Seleccionar photo
+event.create.image.hint;Tip:;
+event.create.image.label;Photo for my fundraising campaign;
+event.create.image.max;Max. image size 5MB;
+event.create.image.new.label;New photo;
+event.create.image.rules;Please note the maximum file size of 5MB and select a landscape format image when uploading your own.;
+event.create.image.save;Save image;
+event.create.image.teaser;Add your own photo to your fundraising campaign. This will make it more personal and motivate your friends and relatives to support your campaign.;Add your own photo to your fundraising campaign. This will make it més personal and motivate your friends and relatives to support your campaign.
+event.create.ispublic.private;<b>Private campaign:</b> My campaign should not appear in the list of all fundraising campaigns. I myself refer supporters to my campaign page.;
+event.create.ispublic.public;<b>Public campaign:</b> My campaign may appear in the list of all fundraising campaigns.;
+event.create.name.label;My name;
+event.create.name.placeholder;Fullname;
+event.create.purpose.label;Select purpose of donation;Seleccionar purpose of donation
+event.create.runtime;The duration of this fundraising campaign is limited to {{runtime}} days.;
+event.create.share.headline;Share this fundraising campaign;
+event.create.share.hinttext;After creating your campaign you will find here the web address of your fundraising site and sharing options.;
+event.create.submit;Create campaign now;
+event.create.submit.hinttext;After creating your campaign you can change your details at any time.<br>You will receive an access link to this page via email.;
+event.create.target.label;Target;
+event.create.target.placeholder;Target in € (optional);Target in € (opcional)
+event.create.textteaser.default;;
+event.create.textteaser.label;Text on my campaign page;
+event.create.textteaser.placeholder;Enter a personal message for your campaign page here. For example, describe your motivation to start a fundraising campaign for our organisation or your connection with us.;
+event.create.textthankyou.default;;
+event.create.textthankyou.label;Thank you message for my donors;
+event.create.textthankyou.placeholder;Enter a thank you message here, which will be displayed after a donation and sent to your supporters.;
+event.create.youtube.hint;Instead of a video, a YouTube video can also be stored. Simply enter the URL of the video in the following field.<br><small>Note: If a video is entered, it will be displayed instead of the image.</small>.;
+event.create.youtube.label;URL of a YouTube video;
+event.created.headline;Your fundraising campaign has been successfully created!;La teva campanya de recaptació de fons s'ha creat amb èxit!
+event.created.howto;The e-mail also contains a link to edit your campaign page. <br><br>Share your campaign with your friends and family or colleagues. Spread the web address of your campaign page or use the buttons to post a message to various social networks or directly send an email.;El correu electrònic també conté un enllaç per editar la pàgina de la campanya.<br><br> Comparteix la campanya amb els teus amics, familiars o companys de feina. Difoneu l'adreça web de la pàgina de la vostra campanya o utilitzeu els botons per publicar un missatge a diverses xarxes socials o enviar directament un correu electrònic.
+event.created.mailsend;We have just sent you a confirmation email.;Acabem d'enviar-te un correu electrònic de confirmació.
+event.created.teaser;Thank you very much for supporting our work with your fundraising campaign.;Moltes gràcies per donar suport al nostre treball amb la vostra campanya de recaptació de fons.
+event.detail.end;The fundraising campaign has ended. Thank you for your support.;La campanya de recaptació de fons has ended. Thank you for your support.
+event.detail.end.button;more information;més information
+event.detail.end.date;Fundraising ends in {{days}} day/s;
+event.detail.end.hint;Fundraising campaign ended;
+event.donator.message.error;Please enter a valid message;
+event.donator.message.label;My message;
+event.donator.name.error;Please enter a name;
+event.donator.name.label;My name;
+event.donator.showDonation;Yes, publish my name in the list of supporters.;
+event.edit.end;The fundraising campaign has ended. Thank you for your support.;La campanya de recaptació de fons has ended. Thank you for your support.
+event.edit.header.donations;%donations% €;
+event.edit.header.donators;by %donators% supporters;
+event.edit.headline;Edit fundraising campaign;
+event.edit.headline.button;View campaign;
+event.edit.headline.your;Your fundraising campaign;
+event.edit.image.current.label;Current photo;
+event.edit.runtime;This fundraising campaign runs until {{endsat}}.;
+event.edit.share;My campaign page;
+event.edit.statistics;Statistics;
+event.edit.submit;Save changes;
+event.list.amount;Raised: <span>{{amount}}</span>;
+event.list.counter;Donation amount so far:;
+event.list.found;<span></span> events;
+event.list.headline;All fundraising campaigns;
+event.list.link;See more;See més
+event.list.more;View more;View més
+event.list.newevent;Start your fundraising campaign;
+event.list.noevents;No fundraising campaigns have been created yet.;
+event.list.search.purpose;Filter by donation purpose;
+footer.dataprotection;data protection;
+footer.impress;impress;
+footer.service;Provided by;
+footer.service.poweredby;powered by;
+form.start.button;Donate;
+gift.amount.ending;as gift!;
+gift.amount.teaser;donated in favour of „{{organisation}}“ in the amount of;
+gift.config.headline;Gift certificate with personal message;
+gift.config.hideamount;<b>Hide</b> donation amount on the donation certificate?;
+gift.config.hideamount.headline;Donation amount on the donation certificate;
+gift.config.message;Your message;
+gift.config.message.error;Please enter a message;Si us plau, introduïu un missatge
+gift.config.receiver;Your message;
+gift.config.receiver.add;Add a donation certificate for another recipient;
+gift.config.receiver.add.hint;If there is more than one recipient, separate gift certificates will be issued. The name of the recipient is exchanged in each certificate.;If there is més than one recipient, separate gift certificates will be issued. The name of the recipient is exchanged in each certificate.
+gift.config.receiver.error;Please enter a recipient name;
+gift.config.receiver.name;Name of the recipient;
+gift.config.receiver2;Name of the recipient of the {{item}}. donation certificate;
+gift.config.receiver2.name;Name of the recipient of the {{item}}. donation certificate;
+gift.config.select.headline;Product on the donation certificate;
+gift.config.select.help;Which product image should be displayed?;
+gift.config.sender;Your name;
+gift.config.sender.error;Please enter a name;
+gift.config.teaser;You will receive the gift certificate by e-mail as a PDF after the donation. You can print it out and give it to the recipient or forward it digitally. Please fill in the following fields and select your options:;
+gift.document.filename;donationcertificate.pdf;
+gift.document.message.placeholder;Your message;
+gift.headline;Donation certificate;
+gift.isGiftDonation;I would like to give this donation away.;
+gift.item.freeprice.error;Only full amounts (without cents) below €15,000 are possible.;
+gift.item.freeprice.placeholder;Enter amount;
+gift.mail;You will find the donation certificate in PDF format as an attachment to this e-mail.;
+gift.message.ending;to {{organisation}} for you!;
+gift.message.teaser;On {{date}}, <b>{{sender}}</b> has donated:;
+gift.product.noprice;{{count}} x {{product}};
+gift.product.price;{{count}} x {{product}} for {{price}}€ each;
+gift.project.description1;Here you briefly describe your project.;
+gift.project.description2;Further information can be found here.;
+gift.receiver.error;please fill in a name;
+gift.receiver.for;for;
+gift.receiver.label;name of the recipient;
+gift.sender.error;please fill in your name;
+gift.sender.label;my name;
+gift.teaser;Give away a donation: Directly after your donation you will receive a printable donation certificate by e-mail (PDF file). This confirms your donation and contains the donation amount, your name as well as the name of the recipient.;
+gift.thankyou;You will receive the requested donation certificate immediately by e-mail.;
+giftshop.back.button;To the motif selection;
+giftshop.cart.additem;Add gift certificate;
+giftshop.cart.button;Continue to payment of {{amount}} {{currencySymbol}};
+giftshop.cart.hint;Personalise your donation certificate;
+giftshop.cart.item.headline;{{item}}. donation certificate;
+giftshop.cart.teaser;You will receive the donation certificate by email as a PDF after the donation. You can print it out and give it to the recipient or forward it digitally. Please fill in the following fields and select your options:;
+giftshop.cart.teaser.empty;"No gift certificate has yet been selected. Please click on ""Add gift certificate""";"No gift certificate has yet been seleccionat. Please click on ""Add gift certificate"""
+giftshop.certificate.teaser;<strong>{{receiver}},</strong>,<br>in your name a donation was made by {{sender}}:<br><strong>{{count}}x {{product}}</strong>with a total value of <b>{{amount}} {{currency}}</b> in favour of {{organisation}}.;
+giftshop.headline;Donation certificate shop;
+giftshop.item.decrease;Reduce amount;
+giftshop.item.freeprice.error;Only full amounts (without cents) below €15,000 are possible.;
+giftshop.item.freeprice.placeholder;Enter amount;
+giftshop.item.increase;Increase amount;
+giftshop.item.personalize;Personalise donation certificate;
+giftshop.item.select;Select;Seleccionar
+giftshop.list.hint;Choose a motif for your donation certificate!;
+giftshop.steps.cart;Personalise;
+giftshop.steps.end;Ready;
+giftshop.steps.list;Select motif;Seleccionar motif
+giftshop.steps.payment;Pay;
+giftshop.thankyou.headline.default;Thank you for your donation! In a few minutes you will receive the certificates by e-mail.;
+headline.contact;Thank you for your donation!;
+headline.default;Your donation counts;
+headline.end;Tell your friends about your donation!;
+impress.urlprefix;You'll find our impress at:;
+letter.filename;donation.pdf;
+letter.sender;<p><strong>{{organisation_name}}</strong>{{organisation_street}}<br>{{organisation_postal_code}} {{organisation_city}}</p>;
+letter.subject;Thank you for your donation;
+letter.text;"{{salutation}} {{firstname}} {{lastname}},
+
+we would like to thank you for your donation to {{organisation_name}}! We are happy to confirm that you have sent us an amount of {amount}} {{currency}}. The donation receipt (donation receipt) will be sent at the beginning of the following year as a collective receipt to the postal or e-mail address you provided.
+
+
+Best regards,
+
+{{organisation_name}}
+";
+overlay.cancel.headline;Cancel;
+overlay.shopgift.button;Add donation recipient;
+overlay.shopgift.headline;Hint;
+overlay.shopgift.text;If you add another donation certificate, the value of your shopping basket doubles. This way, each donation recipient receives the same products that are currently in the shopping basket.<br>You can remove items from the shopping basket or change the quantity at any time.;
+pageheader.subheadline;;
+pageheader.teaser;;
+pageheader.thankyou;Support our work with a donation.;
+payment.apple_pay.label;Apple Pay;
+payment.bancontact.label;bancontact;
+payment.banktransfer.hint;We will send you all details needed for bank transfer via e-mail.;
+payment.banktransfer.label;Bank transfer;
+payment.betterpayment_creditcard.error.default;An error occurred while performing the payment. Please try again later or use a different payment method.;
+payment.betterpayment_creditcard.hint;In the next step, the credit card data is requested for your payment.;
+payment.betterpayment_creditcard.label;Credit Card;
+payment.betterpayment.error.108;An error occurred during exchange with the payment service provider. Please try again later.;
+payment.betterpayment.error.126;Wrong or invalid bank account information;
+payment.betterpayment.error.default;An error occurred during the Direct Debit procedure. Please try again later or use a different payment method.;
+payment.betterpayment.label;SEPA Direct Debit;
+payment.booking-text.apple-pay;Thank you for your online donation - {{purpose}};
+payment.booking-text.bancontact;Thank you for your online donation - {{purpose}};
+payment.booking-text.bank-transfer;online donation - {{purpose}};
+payment.booking-text.credit-card;{{purpose}} -;
+payment.booking-text.direct-debit;Thank you for your online donation - {{purpose}};
+payment.booking-text.google-pay;Thank you for your online donation - {{purpose}};
+payment.booking-text.ideal;Thank you for your online donation - {{purpose}};
+payment.booking-text.mbe4;Your help for {{organisationName}} ({{paymentReference}});
+payment.booking-text.paydirekt;Thanks for your donation - {{purpose}};
+payment.booking-text.paypal;Thank you for your online donation - {{purpose}};
+payment.booking-text.post_finance;Thank you for your online donation - {{purpose}};
+payment.booking-text.sofort;Sofort-Donation {{purpose}} -;
+payment.booking-text.twint;Thank you for your online donation - {{purpose}};
+payment.creditcard.label;Creditcard;
+payment.debit.bic.error;Your BIC is not valid;
+payment.debit.bic.label;BIC;BIC
+payment.debit.error.100;The specified bank account cannot be used for direct debit. Please enter your own account details.;
+payment.debit.error.101;This bank does not support SEPA Direct Debit. Please specify another account or select another payment method.;
+payment.debit.iban.error;Your IBAN is not valid;
+payment.debit.iban.label;IBAN;IBAN
+payment.debit.label;Direct Debit;
+payment.debit.name.error;Please provide an account holder;
+payment.debit.name.label;Account holder first name and surname;
+payment.debit.terms.error;Please accept the terms;Si us plau, accepteu the terms
+payment.debit.terms.info;"I authorize {{organisation}} until further notice to collect payments from my account by SEPA Direct Debit. I agree that I receive the advance notice of the debiting by e-mail (debiting within 5 banking days)
+ {{organisation}}, {{city}}  |  Creditor ID {{creditor_identification}}";
+payment.debit.terms.label;"I agree to the terms of <u tabindex=""0"">SEPA Direct Debit</u>.";
+payment.email.confirmation.placeholder; for confirmation;
+payment.email.error;Please enter a valid e-mail address;
+payment.email.info;The email address will only be used to send a confirmation.;
+payment.email.label;E-mail address;Adreça de correu electrònic
+payment.error_no-selection;Please choose a payment method:;
+payment.error_popup;We could not open a window for the payment. Please allow pop-up's in your browser and try again.;
+payment.error_wrong-input;Please fill in all fields marked in red:;
+payment.error.facebookbrowser;"Unfortunately, not all payment methods are available inside this app. If you would like to use a different payment method, please select ""Open in Safari"" in the top right-hand corner. Thank you very much.";
+payment.error.newwindow;"No connection could be established with the payment service provider. Please <a href=""{{url}}"" target=""_blank"">click here</a> to restart the payment. Thanks a lot!";
+payment.error.nomethods;No payment methods available.;
+payment.error.noredirect;The redirection to the payment service provider does not seem to have worked. Please restart the donation with the button below.;
+payment.generic.hint;Please pay attention to the confirmation email.;
+payment.generic.label;generic;
+payment.google_pay.label;Google Pay;
+payment.headline.apple_pay;Please fill in your email address;
+payment.headline.bancontact;Please fill in your email address;
+payment.headline.banktransfer;Please fill in your email address;
+payment.headline.betterpayment;Please fill in your bank account data;
+payment.headline.betterpayment_creditcard;Please fill in your email address;
+payment.headline.debit;Please fill in your bank account data;
+payment.headline.generic;Please fill in your email address;
+payment.headline.google_pay;Please fill in your email address;
+payment.headline.ideal;Please fill in your email address;
+payment.headline.iframe.betterpayment_creditcard;Please fill in your credit card data;
+payment.headline.konfipay;Please fill in your bank account data;
+payment.headline.mbe4;Please donate now;
+payment.headline.paydirekt;Please fill in your email address;
+payment.headline.paypal;Please fill in your email address;
+payment.headline.paypal_guest;Please fill in your email address;
+payment.headline.post_finance;Please fill in your email address;
+payment.headline.sixpay;Please fill in your email address;
+payment.headline.sofortueberweisung;Please fill in your email address;
+payment.headline.standard;Choose a payment method;
+payment.headline.stripe_apple_pay;Apple Pay;
+payment.headline.stripe_google_pay;Google Pay;
+payment.headline.twint;Please fill in your email address;
+payment.headline.zero;Please fill in your email address;
+payment.ideal.label;iDEAL;
+payment.konfipay.error.100;The specified bank account cannot be used for direct debit. Please enter your own account details.;
+payment.konfipay.error.101;This bank does not support SEPA Direct Debit. Please specify another account or select another payment method.;
+payment.konfipay.label;SEPA Direct Debit;
+payment.mbe4.hint;You pay via your mobile phone bill. A maximum of 10 € is possible.;
+payment.mbe4.label;Mobile phone bill;
+payment.paydirekt.cart.item;payment for {{organisationName}} - {{purpose}} - ({{paymentReference}});
+payment.paydirekt.hint;You will be redirected to the payment service provider. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.paydirekt.label;giropay;
+payment.paypal_guest.hint;You will be redirected to the payment service provider PayPal. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.paypal.hint;You will be redirected to the payment service provider PayPal. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.paypal.label;PayPal;
+payment.post_finance.label;PostFinance Pay;
+payment.recommendation.hint;Recommendation;
+payment.recommendation.hint.banktransfer;Recommendation;
+payment.sepa.hint.1;<b>Tip:</b> Automatic debit from your account is even more convenient for you;<b>Tip:</b> Automatic debit from your account is even més convenient for you
+payment.sepa.hint.2;<b>Switch to SEPA direct debit now</b>;
+payment.sixpay.hint;You will be redirected to the payment service provider. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.sixpay.label;Credit card;
+payment.sofortueberweisung.hint;You will be redirected to the payment service provider Sofortüberweisung. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.sofortueberweisung.label;Sofortüberweisung;
+payment.stripe_apple_pay.hint;You will be redirected to the payment service provider. This provider fulfills our high security standards. All transaction details will be encrypted.;
+payment.stripe_apple_pay.label;Apple Pay;
+payment.stripe_creditcard.label;Credit Card;
+payment.stripe_google_pay.label;Google Pay;
+payment.stripe.error.loaderror;A connection to the payment service provider could not be established. Please try again later.;
+payment.stripe.error.paymentnotavailable.googlePay;Google Pay is not available or not activated on this device.;
+payment.stripe.oauth.bad_request;Wrong call. Please close this window.;
+payment.stripe.oauth.error_access;The integration of Stripe has already been completed. Please close this window.;
+payment.stripe.oauth.error_internal;An internal error has occurred. Please contact twingle support at hilfe@twingle.de;
+payment.stripe.oauth.error_stripe;"The integration of Stripe was cancelled or not completed. Please restart the integration. To do this, go to the settings, switch to the ""Payment methods"" area and then click on the ""Continue Stripe setup"" button again.";
+payment.stripe.return;"<b>Thank you for getting the integration of Stripe into your twingle account off the ground!</b><br><br>If you have already successfully completed the registration with Stripe, we will send you an email as soon as payments via Stripe are possible in your twingle projects. This may still take some time.<br><br>If you have interrupted the registration process, you can easily resume it via the twingleMANAGER. To do this, go to the settings, switch to the ""Payment methods"" section and then click on the ""Continue Stripe setup"" button again.";
+payment.submit.hint;Your data is securely transmitted using SSL encryption;
+payment.submit.now;Donate {{amount}} {{currencySymbol}} now;
+payment.submit.now.membership;Join now for {{membershipAmount}}{{currencySymbol}} {{rythm}};Join now for {{membershipImport}}{{currencySymbol}} {{rythm}}
+payment.twint.label;TWINT;
+payment.zero.hint;You will receive a confirmation to your e-mail address.;
+pleaseselect;please select;
+progress.current;Total donations to date;
+progress.donators;donors;
+progress.of;of;
+progress.stand;Donation amount reached so far: <b>{{amount}} {{currency}}</b>;
+projectdonators.from;{{name}} {{diff}} {{unit}} ago;
+projectdonators.from.anonymous;Anonymous;
+projectdonators.headline;Supporters;
+projectdonators.more;Show more;Show més
+projectdonators.time.days;days;
+projectdonators.time.hours;hours;
+projectdonators.time.minutes;minutes;
+rythm.error;Please choose your frequency;
+rythm.error-configuration;Error: No frequency defined;
+rythm.label;Choose a frequency;
+rythm.label_single;Your frequency;
+rythm.label.membership;At what rate do you want to pay?;
+rythm.one_time.label;one time;
+rythm.one_time.placeholder;once;
+rythm.recurring.halfyearly.label;semiannual;
+rythm.recurring.halfyearly.label.membership;semiannual ({{donationAmountx6}}{{currencySymbol}});semiannual ({{donationImportx6}}{{currencySymbol}})
+rythm.recurring.halfyearly.placeholder;per half-year;
+rythm.recurring.label;recurring;
+rythm.recurring.monthly.label;monthly;
+rythm.recurring.monthly.label.membership;monthly ({{donationAmount}}{{currencySymbol}});monthly ({{donationImport}}{{currencySymbol}})
+rythm.recurring.monthly.placeholder;per month;
+rythm.recurring.quarterly.label;quarterly;
+rythm.recurring.quarterly.label.membership;quarterly ({{donationAmountx3}}{{currencySymbol}});quarterly ({{donationImportx3}}{{currencySymbol}})
+rythm.recurring.quarterly.placeholder;per quarter;
+rythm.recurring.yearly.label;yearly;
+rythm.recurring.yearly.label.membership;yearly ({{donationAmountx12}}{{currencySymbol}});yearly ({{donationImportx12}}{{currencySymbol}})
+rythm.recurring.yearly.placeholder;per year;
+rythmtarget.hint;;
+selfservice.contact.label;Kontaktaufnahme;
+selfservice.contect.none;None;
+selfservice.donator.label;Spender-Informationen;
+selfservice.edit.back;Abbrechen und zurück zur Übersicht;Cancel·lar i tornar al resum
+selfservice.edit.form.submit;Änderungen speichern;
+selfservice.edit.reccurring.button.activate;Aktivieren;
+selfservice.edit.reccurring.button.pause;Pausieren;
+selfservice.edit.reccurring.status;Status:;
+selfservice.edit.reccurring.status.active;Aktiv;
+selfservice.edit.reccurring.status.inactive;Pausiert;
+selfservice.edit.reccurring.status.onhold;In Bearbeitung <small>Hinweis: Ein Pausieren der Zahlung ist erst nach dem ersten Einzug möglich.</small>;En procés <small>Nota: Pausar el pagament només és possible després del primer càrrec.</small>
+selfservice.error_amount_change_not_allowed;Der Betrag kann im Moment nicht geändert werden.;L'import no es pot canviar en aquest moment.
+selfservice.error_amount_no_integer;Bitte geben Sie keine Dezimalzahlen beim Betrag ein.;
+selfservice.error_debit_account_holder_too_long;Der Eingabe zur KontoinhaberIn ist zu lang;L'entrada per al titular del compte és massa llarga
+selfservice.error_debit_bic_does_not_match_iban;Die eingegebene BIC ist nicht korrekt;El BIC introduït no és correcte
+selfservice.error_debit_bic_incorrect;Die eingegebene BIC ist nicht korrekt;El BIC introduït no és correcte
+selfservice.error_debit_bic_match_iban_failed;Die eingegebene BIC passt nicht zur IBAN;El BIC introduït no coincideix amb l'IBAN
+selfservice.error_debit_iban_incorrect;Die eingegebene IBAN ist nicht korrekt;L'IBAN introduït no és correcte
+selfservice.error.generic;Bitte überprüfen Sie die rot markieren Felder;Si us plau, reviseu els camps marcats en vermell
+selfservice.error.generic.membership;Ein interner Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.;
+selfservice.error.membership;Bitte eine Erhöhung auswählen oder einen gültigen, individuellen Betrag angeben.;
+selfservice.errorpage.headline;Ein Fehler ist aufgetreten;
+selfservice.errorpage.text;"Der Service ist nicht verfügbar oder die zulässige Zeit ist abgelaufen. Versuchen Sie es noch einmal mit dem <a href=""{{url}}"">Login</a>.";"El servei no està disponible o ha expirat el temps permès. Torneu-ho a provar amb l' <a href=""{{url}}"">inici de sessió</a>."
+selfservice.headline;Spendendetails;
+selfservice.login.email.label;Ihre E-Mail-Adresse;
+selfservice.login.error.invalidata;Die eingegebenen Daten sind ungültig.;
+selfservice.login.hint;Die Zahlungs-ID finden Sie auf Ihrem Kontoauszug oder in der Bestätigungs E-Mail, die Sie nach dem Spenden erhalten haben.;Trobareu l'ID de pagament al vostre extracte bancari o al correu electrònic de confirmació que vau rebre després de fer la donació.
+selfservice.login.submit;Anmelden;
+selfservice.login.teaser;Um die Daten Ihrer Spende zu ändern oder eine Spendenbescheinigung herunterzuladen melden Sie sich bitte hier an.<br>Geben Sie dazu Ihre E-Mail Adresse und ID-Nummer der Spende ein.;Per canviar les dades de la vostra donació o descarregar un certificat de donació, inicieu sessió aquí.<br>Introduïu la vostra adreça de correu electrònic i el número d'ID de la donació.
+selfservice.login.trxid.label;Zahlungs-ID (z.B. ABCDEFG);
+selfservice.mail.tan.footer;Viele Grüße,<br>{{organisationName}};
+selfservice.mail.tan.subject;Spenderdetails - Anmeldung;
+selfservice.mail.tan.teaser;{{completeDonorSalutation}},<br><br>um die Details zu Deiner Spende einsehen zu können, bitte folgenden Code eingeben:;{{completeDonorTractament}},<br><br>um die Details zu Deiner Spende einsehen zu können, bitte folgenden Code eingeben:
+selfservice.membership.button0.label;;
+selfservice.membership.button1.label;;
+selfservice.membership.button2.label;;
+selfservice.membership.debit;Abbuchung;
+selfservice.membership.error;"Diese Funktion steht für diese Zahlung nicht zur Verfügung. Jetzt <a href=""{{url}}"">hier neu anmelden</a>.";"Aquesta funció no està disponible per a aquest pagament. Ara <a href=""{{url}}"">inicieu sessió de nou aquí</a>."
+selfservice.membership.form.submit;Änderungen speichern und zukünftig {{amount}} {{currency}} {{rhythm}} abbuchen;
+selfservice.membership.headline;Mitgliedsbeitrag erhöhen;
+selfservice.membership.individual;Individuell:;
+selfservice.membership.link;Beitrag erhöhen;
+selfservice.membership.newamount;Neuer monatlicher Beitrag;
+selfservice.membership.saved;Die Änderungen wurden erfolgreich gespeichert. Die nächste ({{rhythm}}e) Abbuchung mit einem Betrag von {{amount}} {{currency}} wird (im {{nextrun}}) erfolgen.;Els canvis s'han desat correctament. El proper ({{rhythm}}e) Càrrec mit einem Betrag von {{amount}} {{currency}} serà (al {{nextrun}}) realitzat.
+selfservice.membership.teaser;Ja, ich möchte meinen aktuellen Mitgliedsbeitrag von {{amount}} {{currency}} monatlich erhöhen um:;
+selfservice.recurring.nextrun;Ihre nächste Zahlung über <b>{{amount}} {{currency}}</b> erfolgt im <b>{{date}}</b>.;
+selfservice.show.account_holder.label;KontoinhaberIn;
+selfservice.show.amount.label;Betrag;
+selfservice.show.back;Zurück zum Login;
+selfservice.show.bic.label;BIC;BIC
+selfservice.show.changedata;change data;
+selfservice.show.donation;Spende vom ;
+selfservice.show.email.label;E-Mail;
+selfservice.show.headline;Spendendetails;
+selfservice.show.headline.membership;Mitgliedschaftdetails;
+selfservice.show.headline.recurring;Dauerspendendetails;
+selfservice.show.iban.label;IBAN;IBAN
+selfservice.show.noreceipt;Ihre Spendenbescheinigung ({{donatinYear}}) steht Ihnen hier ab Februar {{receiptYear}} zur Verfügung;
+selfservice.show.payment_method.label;Zahlungsart;
+selfservice.show.purpose.label;Spendenzweck;
+selfservice.show.receipturl;Spendenbescheinigung für {{donatinYear}} (PDF);
+selfservice.show.rythm.label;Spendenrhytmus;
+selfservice.show.rythm.label.membership;Zahlungsrhythmus;
+selfservice.show.saved;Die Änderungen wurden gespeichert;S'han desat els canvis
+selfservice.show.trxid.label;Zahlungs-ID;
+selfservice.tan.error.invalidtan;Code ungültig. Bitte die Eingabe überprüfen.;
+selfservice.tan.form.submit;Anmeldung abschließen;
+selfservice.tan.form.tan.label;6-stelliger Code;
+selfservice.tan.form.tan.placeholder;0-0-0-0-0-0;
+selfservice.tan.headline;Bitte Login-Code eingeben;
+selfservice.tan.teaser;Bitte geben Sie hier die 6-stellige Nummer ein, die wir Ihnen soeben an Ihre E-Mail-Adresse geschickt haben.;
+share.facebook.title;Share on facebook;
+share.google.title;Share on Google+;
+share.mail.body;;
+share.mail.subject;I made a donation, do the same!;
+share.mail.title;Send an e-mail to your friends;
+share.teaser;Tell others about your donation;
+share.teaser.doi;Share this campaign;
+share.whatsapp.text;Donate too: ;
+share.whatsapp.title;Share on Whatsapp.;
+shop.brochure.donation;Your donation;
+shop.brochure.donation.cart;Your donation;
+shop.brochure.donation.info;Thank you for your interest in our offers. We look forward to receiving your additional donation to support our work.;
+shop.brochure.mail;Brochure by mail;
+shop.cart.button;Continue to payment method;
+shop.cart.item.remove;Remove product;
+shop.cart.items.count;Number;
+shop.cart.items.gifts;Number of donation certificates;
+shop.cart.items.price;Unit price;
+shop.cart.items.product;Product;
+shop.cart.items.sum;Total price;
+shop.cart.sum;You donate goods with a total value of:;
+shop.cartitem;{{count}} products for {{price}} {{currency}};
+shop.cartitem.single;{{count}} product for {{price}} {{currency}};
+shop.category.all;All;
+shop.category.select;Select a category to filter the list;Seleccionar a category to filter the list
+shop.download.donate.now.button;Donate now;
+shop.download.pdf;PDF download;
+shop.download.ready;Your document is ready for download.;
+shop.download.start.button;Start download;
+shop.filter.categories.count.plural;{{count}} categories;
+shop.filter.categories.count.singular;{{count}} category;
+shop.filter.category.all;All categories;
+shop.filter.close;Close;Tancar
+shop.filter.price.all;All prices;
+shop.filter.price.apply;Apply filter;
+shop.filter.price.error;Invalid input;
+shop.filter.price.max;maximum price;
+shop.filter.price.max.slider;slider - maximum price;
+shop.filter.price.min;minimum price;
+shop.filter.price.title;Price filter;
+shop.headline;Donation shop;
+shop.info.bundle.max;There are not enough products available.;
+shop.info.product.max;You can add a maximum of {{max}} of these products per order to the shopping cart.;
+shop.item.add;Add;
+shop.item.added;added;
+shop.item.count;Select the number of the product named {{itemName}};Seleccionar the number of the product named {{itemName}}
+shop.item.textinput.error;Please insert a text.;
+shop.item.textinput.placeholder;your text;
+shop.items.count.plural;{{count}} products;
+shop.items.count.singular;{{count}} product;
+shop.list.button;Buy now and donate;
+shop.list.button.teaser;{{items}} products for {{price}} {{currency}};
+shop.list.button.teaser.single;{{items}} product for {{price}} {{currency}};
+shop.list.more;Show more products;Show més products
+shop.list.noproducts;no products available;
+shop.summary.brochure.donation;Voluntary donation;
+shop.summary.gift.count;Number of donation certificates;
+shop.summary.headline;Overview;
+shop.summary.policy;With my order I agree to the data protection conditions and the cancellation policy.;
+shop.summary.subtotal;Subtotal;
+shop.summary.sum;Total;
+shop.summary.terms;I accept the general terms and conditions;
+shop.summary.terms.error;Please accept the terms and conditions;Si us plau, accepteu the terms and conditions
+shop.summary.topup;Additional amount;
+status.canceled;You have aborted your transaction. Please use a different payment method.;
+status.canceled.button;Retry payment;
+status.error;Your transaction could not be processed. Please try again later.;
+status.error.button;Restart payment process;
+status.error.validation;Donation processing failed. Please reload the page and start the donation again.;
+status.error.validation.205;The desired payment method is unfortunately not available.;
+status.error.validation.207;The donation amount is unfortunately incorrect. Please adjust the amount and start the donation again.;
+status.error.validation.208;The donation amount is unfortunately incorrect. Please enter a valid amount and start the donation again.;
+status.error.validation.209;The selected currency is unfortunately not available.;The seleccionat currency is unfortunately not available.
+status.error.validation.210;The email address is unfortunately invalid. After correction, the donation can be started again.;
+status.error.validation.211;For security reasons, the payment could not be processed. Please wait briefly and try again.;
+status.error.validation.212;Donation processing failed. Please start the donation again.;
+status.error.validation.213;The selected products are no longer available. Please reload the page and start the order again.;The seleccionat products are no longer available. Please reload the page and start the order again.
+status.error.validation.214;Processing the data took too long. Please try again.;
+status.redirect;You will now be redirected to the payment service provider.<br>Please complete your payment afterwards.;
+status.redirect.cancel;Cancel and restart payment;
+status.waiting;Please be patient, your payment is being processed.;
+stepindex.step.contact;Address;
+stepindex.step.payment;Payment;
+stepindex.step.start;Amount;Import
+stepindex.step.thankyou;Thank you;
+stepnavigation.back;back;
+stepnavigation.back.shop;Back to the selection;
+target.default;General donation;
+target.error;Please choose a purpose;
+target.label;Choose a purpose:;
+target.label_single;Your purpose:;
+thankyou.headline.default;Thank you for your donation!;
+thankyou.headline.end;Our service for you;El nostre servei per a vosaltres
+thankyou.text.apple_pay;We received your {{amount}} {{currencySymbol}} donation by apple pay!;
+thankyou.text.bancontact;We received your {{amount}} {{currencySymbol}} donation by bancontact!;
+thankyou.text.banktransfer;Please transfer your donation about {{amount}} {{currencySymbol}} to our bank account.;
+thankyou.text.betterpayment;We received your {{amount}} {{currencySymbol}} donation by Direct Debit!;
+thankyou.text.betterpayment_creditcard;We received your {{amount}} {{currencySymbol}} donation by credit card!;
+thankyou.text.debit;We received your {{amount}} {{currencySymbol}} donation by Direct Debit!;
+thankyou.text.end;Thank you. We received your data!;
+thankyou.text.generic;We received your {{amount}} {{currencySymbol}} donation!;
+thankyou.text.google_pay;We received your {{amount}} {{currencySymbol}} donation by google pay!;
+thankyou.text.ideal;We received your {{amount}} {{currencySymbol}} donation by iDEAL!;
+thankyou.text.konfipay;We received your {{amount}} {{currencySymbol}} donation by Direct Debit!;
+thankyou.text.mbe4;We received your {{amount}} {{currencySymbol}} donation!;
+thankyou.text.paydirekt;We received your {{amount}} {{currencySymbol}} donation by giropay!;
+thankyou.text.paypal;We received your {{amount}} {{currencySymbol}} donation via PayPal!;
+thankyou.text.post_finance;We received your {{amount}} {{currencySymbol}} donation by PostFinance Pay!;
+thankyou.text.sixpay;We received your {{amount}} {{currencySymbol}} donation by credit card!;
+thankyou.text.sofortueberweisung;We received your {{amount}} {{currencySymbol}} donation SOFORT Überweisung;
+thankyou.text.twint;We received your {{amount}} {{currencySymbol}} donation by TWINT!;
+ti.association_work;;
+ti.contribution.interests.label;;
+ti.contribution.remarks.label;;
+ti.hint.postalcode;;
+ti.hint.share_internal;;
+ti.hint.share_internal2;;
+ti.hint.share_internal3;;
+ti.reason_for_participation;;
+widget.payment.button;Proceed;
+widget.start.button;Donate;
+widget.summary.button;Donate;
+widget.summary.summary-text.label;Donation overview;
+widget.summary.summary-text.payment-prefix;via;
+widget.summary.summary-text.postfix;.;
+widget.summary.summary-text.prefix;I donate ;
+widget.summary.summary-text.target-prefix;for ;

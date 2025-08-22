@@ -1,0 +1,32 @@
+{
+    "name": "yellowgoats.com",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "eleventy --serve",
+        "build": "eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MayorTechLimited/yellowgoats.com.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MayorTechLimited/yellowgoats.com/issues"
+    },
+    "homepage": "https://github.com/MayorTechLimited/yellowgoats.com#readme",
+    "type": "module",
+    "dependencies": {
+        "@11ty/eleventy": "^3.1.2"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.12",
+        "cssnano": "^7.1.1",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.12"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "title": "Yellow Goats",
+    "description": "Welcome to Yellow Goats - your destination for quality content and services",
+    "url": "https://yellowgoats.com",
+    "author": "Yellow Goats Team",
+    "email": "contact@yellowgoats.com",
+    "language": "en",
+    "image": "/img/og-image.jpg",
+    "favicon": "/favicon.ico",
+    "social": {
+        "twitter": "@yellowgoats",
+        "github": "yellowgoats",
+        "linkedin": "company/yellowgoats"
+    },
+    "navigation": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "About",
+            "url": "/about/"
+        },
+        {
+            "text": "News",
+            "url": "/news/"
+        }
+    ],
+    "buildTime": "2024-01-01T00:00:00.000Z"
+}

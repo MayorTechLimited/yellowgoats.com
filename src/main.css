@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/merriweather-sans";
+
+@theme {
+    --color-yg-yellow-light: #fdf4d3;
+    --color-yg-yellow-medium: #faea80;
+    --color-yg-yellow-primary: #f7c52d;
+    --color-yg-yellow-dark: #d4a91a;
+    --color-yg-yellow-deep: #b8860b;
+
+    --color-yg-white: #f7fafc;
+    --color-yg-black: #1a202c;
+
+    --color-yg-blue-light: #3b82f6;
+    --color-yg-blue-dark: #1e3a8a;
+    --color-yg-green-light: #10b981;
+    --color-yg-green-dark: #166534;
+    --color-yg-orange: #ea580c;
+
+    --font-primary:
+        "Inter Variable", ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif;
+    --font-secondary:
+        "Merriweather Sans Variable", Georgia, "Times New Roman", Times, serif;
+    --font-sans: var(--font-secondary);
+}
+
+@layer base {
+    body {
+        @apply font-secondary;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-primary;
+    }
+
+    .prose ::marker {
+        @apply !text-yg-black;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center no-underline border-2 border-transparent rounded-md cursor-pointer px-4 py-2 text-base leading-normal;
+        min-height: 44px;
+    }
+
+    .btn:focus {
+        @apply outline-2 outline-yg-yellow-primary outline-offset-2;
+    }
+
+    .btn--primary {
+        @apply bg-yg-yellow-primary text-yg-white border-yg-yellow-primary hover:bg-yg-yellow-dark hover:border-yg-yellow-dark;
+    }
+
+    .btn--secondary {
+        @apply bg-white text-yg-white border-yg-yellow-primary hover:bg-yg-yellow-light;
+    }
+
+    .btn--large {
+        @apply px-6 py-4 text-lg;
+    }
+
+    .btn--small {
+        @apply px-2 py-1 text-sm;
+    }
+}
+
+@layer utilities {
+}
+
+@media print {
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    :root {
+        --color-yg-yellow-primary: #ffd700;
+        --color-yg-black: #000000;
+        --color-yg-white: #ffffff;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        @apply !duration-0 !transition-none;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
